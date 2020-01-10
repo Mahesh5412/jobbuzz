@@ -1,0 +1,37 @@
+.background{
+  height: 350px;
+  width:500px;
+
+  background-repeat: no-repeat;
+  margin-left: 800px;
+  background-size: 400px;
+
+  margin-bottom: 90px;
+}
+ .head{
+
+  background-color:blueviolet;
+  color:white;
+
+  
+}
+.homexit{
+  border:none;
+  background:none;
+  
+}
+.mt{
+  margin-top: 2%;
+  margin-right: 0px;
+  margin-left: 3%;
+}
+.viewdetailsbtn{
+background-color: blueviolet;
+border:none;
+color:white;
+}
+.mainRow{
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-left: 4%;
+}

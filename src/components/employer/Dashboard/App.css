@@ -1,0 +1,287 @@
+
+.mainContainer{
+  height: 80vh;
+  background-image: url("../../../images/Group 287.png");
+  background-repeat: no-repeat;
+  background-position: 97% bottom;
+  background-size: 250px;
+}
+.mainLoginRegister{
+  width: 49%;
+  height: 411px;
+  margin-left: 5%;
+  margin-top: 2%;
+  border-radius: 2%;
+  box-shadow: 10px 10px 5px #f0eaff;
+}
+.register{
+  float : left;
+  width: 39%;
+  background-color: #78c7EE;
+  height:411px;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+.login{
+  float : right;
+  width: 39%;
+  background-color: #78c7EE;
+  height:411px;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+.registerSide{
+  text-align: center;
+  margin-top:50%;
+}
+.loginSide{
+  text-align: center;
+  margin-top:50%;
+}
+.buttonHome{
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.buttonHomeSide{
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.registerMain{
+  float: left;
+  width: 409px;
+  height: 411px;
+  margin-left: 100%;
+  margin-top: -79%;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+}
+.registerName{
+  text-align: center;
+  margin-top: 20px;
+  color : #78c7EE;
+  font-weight: bold;
+}
+.registerContent{
+  margin-left: 25%;
+}
+.inputRegister{
+  float: left;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.inputRegisterField{
+  width:227px;
+}
+.inputRegisterButton{
+  margin-left: 41%;
+}
+.loginMain{
+  float: right;
+  width: 409px;
+  height: 411px;
+  margin-right: 100%;
+  margin-top: -93%;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+.loginName{
+  text-align: center;
+  margin-top: 20%;
+  margin-left: -7%;
+  color : #78c7EE;
+  font-weight: bold;
+}
+.loginContent{
+  margin-right: 25%;
+  margin-top: 4%;
+}
+.inputLogin{
+  float: left;
+  margin-left: 20%;
+  
+}
+.inputLoginField{
+  width:227px;
+  
+}
+.inputLoginField2{
+  width:300px;
+  margin-left: 295px
+}
+
+
+.inputLoginFieldButton{
+  margin-left: 69%;
+}
+/* input box place holders */
+label {
+  margin:10px 0;
+  position:relative;
+  display:inline-block;
+}
+
+.spanClass {
+  padding:9px;
+  margin-left: 5px;
+  font-size: 16px;
+  pointer-events: none;
+  position:absolute;
+  left:0;
+  top:0;
+  transition: 0.2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  opacity:0.5;
+}
+
+
+input {
+  padding:10px;
+}
+
+input:focus + span, input:not(:placeholder-shown) + span {
+  opacity:1;
+  transform: scale(0.75) translateY(-100%) translateX(-30px);
+}
+/* For IE Browsers*/
+input:focus + span, input:not(:-ms-input-placeholder) + span {
+  opacity:1;
+  transform: scale(0.75) translateY(-100%) translateX(-30px);
+}
+.loginSideLogo{
+  margin-left: -42%;
+  margin-top: 24px;
+}
+
+.submit{
+  
+  color: red;
+  border-radius: 5px;
+  align-self: center;
+  padding-left: 750px;
+  
+}
+.platform{
+  background-image: url("../../../images/platformbgrnd.png");
+  background-size: cover;
+  height:1000px;
+  background-repeat: no-repeat;
+}
+
+.analysis{
+
+  padding: 80px;
+  margin-left: 28%;
+  align-self: center;
+  /* justify-content:space-evenly */
+
+}
+.co-orporate{
+  align-self: center;
+  background-color: white;
+  opacity: 0.5;
+  width:280px;
+  margin-left: 700px;
+  border-radius: 30px;
+  text-align: center;
+  
+ 
+}
+.space{
+  justify-content: space-around;
+}
+.cborder{
+  margin-left: 160px;
+  background-color: white;
+   opacity:0.6;
+   border-radius: 10px;
+   
+}
+
+.createpost{
+  
+  justify-content: space-around;
+}
+.post{
+  margin-left: 360px;
+  background-color: black;
+   width:800px;
+   font-size: 12px;
+   border-radius: 10px;
+
+}
+.dashboardbtn{
+  
+  width: 200px;
+margin-left: 700px;
+}
+.fields{
+ 
+  width:900;
+  text-align: center;
+  padding: 30px;
+}
+.head{
+  background-color: red;
+  color:white;
+  width:1500px;
+}
+.View{
+  background-color: red;
+}
+.background{
+  background-image: url("../../../images/Group 373.png"); 
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
+  margin-left: 60%;
+  background-size: 400px;
+  margin-top: -6%;
+}
+.logo6{
+  margin-left: 590px;
+}
+.searchbox{
+  border:black;
+  border-color: black;
+  align-self: center;
+  padding:30;
+  margin-top: 60px;
+  margin-left: 20px;
+  padding-bottom: 40px;
+  background-color:white;
+  background-position: center;
+
+}
+.list{
+  
+  color :'black';
+  margin: 25px 50px 75px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 100px;
+  width: 100%;
+  height: 150px;
+  margin-top: 1%;
+  justify-content: space-between;
+  
+}
+.excellentlist{
+  background-color: gray;
+  opacity: 0.5;
+  border-radius: 50px;
+  width: 99%;
+  padding: 10px;
+  height: 220px;
+  margin-bottom: 10px;
+}
+.profile {   
+ margin-left:-20px;
+}
+.createLogo{
+  margin-left: -52%;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,315 @@
+.mainContainer {
+    height: 80vh;
+    background-image: url("../../images/mainBackground.png");
+    background-repeat: no-repeat;
+    background-position: 97% bottom;
+    background-size: 250px;
+  }
+  .mainLoginRegister {
+    width: 49%;
+    height: 411px;
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 2%;
+    box-shadow: 10px 10px 5px #f0eaff;
+  }
+  .register {
+    float: left;
+    width: 39%;
+    background-color: #78c7ee;
+    height: 411px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+  }
+  .login {
+    float: right;
+    width: 39%;
+    background-color: #78c7ee;
+    height: 411px;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+  }
+  .registerSide {
+    text-align: center;
+    margin-top: 50%;
+  }
+  .loginSide {
+    text-align: center;
+    margin-top: 50%;
+  }
+  .buttonHome {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+  .buttonHomeSide {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+  }
+  .registerMain {
+    float: left;
+    width: 409px;
+    height: 411px;
+    margin-left: 100%;
+    margin-top: -92%;
+    border-top-right-radius: 2%;
+    border-bottom-right-radius: 2%;
+  }
+  .registerName {
+    text-align: center;
+    margin-top: 20px;
+    color: #78c7ee;
+    font-weight: bold;
+  }
+  .registerContent {
+    margin-left: 25%;
+  }
+  .inputRegister {
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  .inputRegisterField {
+    width: 227px;
+  }
+  .inputRegisterButton {
+    margin-left: 41%;
+  }
+  .loginMain {
+    float: right;
+    width: 409px;
+    height: 411px;
+    margin-right: 100%;
+    margin-top: -85%;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+  }
+  .loginName {
+    text-align: center;
+    margin-top: 13%;
+    margin-left: -7%;
+    color: #78c7ee;
+    font-weight: bold;
+  }
+  .loginContent {
+    margin-right: 25%;
+    margin-top: 4%;
+  }
+  .inputLogin {
+    float: left;
+    margin-left: 20%;
+  }
+  .inputLoginField {
+    width: 227px;
+  }
+  .inputLoginFieldButton {
+    margin-left: 69%;
+  }
+  
+  /* input box place holders */
+  
+  label {
+    margin: 10px 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .spanClass {
+    padding: 9px;
+    margin-left: 5px;
+    font-size: 12px;
+    pointer-events: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 0.2s;
+    transition-timing-function: ease;
+    transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+    opacity: 0.5;
+  }
+  
+  input {
+    padding: 10px;
+  }
+  
+  input:focus + span,
+  input:not(:placeholder-shown) + span {
+    opacity: 1;
+    transform: scale(0.75) translateY(-100%) translateX(-30px);
+  }
+  
+  /* For IE Browsers*/
+  
+  input:focus + span,
+  input:not(:-ms-input-placeholder) + span {
+    opacity: 1;
+    transform: scale(0.75) translateY(-100%) translateX(-30px);
+  }
+  .loginSideLogo {
+    margin-left: -42%;
+    margin-top: 31px;
+  }
+
+  /*media queries for responsive screens*/
+  @media only screen and (min-width: 360px) and (max-width: 768px) { 
+    .mainContainer {
+      height: 80vh;
+      background-image: url("../../images/mainBackground.png");
+      background-repeat: no-repeat;
+      background-position: 76% bottom;
+      background-size: 105px;
+      margin-top: 50px;
+    }
+    .mainLoginRegister {
+      width: 90%;
+      height: 390px;
+      margin-right: 20%;
+      margin-top: 2%;
+      border-radius: 2%;
+      box-shadow: 10px 10px 5px #f0eaff;
+    }
+    .register {
+      float: left;
+      width: 39%;
+      background-color: #78c7ee;
+      height: 390px;
+      border-top-left-radius: 2%;
+      border-bottom-left-radius: 2%;
+    }
+    .login {
+      float: right;
+      width: 39%;
+      background-color: #78c7ee;
+      height: 390px;
+      border-top-right-radius: 2%;
+      border-bottom-right-radius: 2%;
+    }
+    .registerSide {
+      text-align: center;
+      margin-top: 146px;
+    }
+    .loginSide {
+      text-align: center;
+      margin-top: 146px;
+    }
+    .buttonHome {
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+    .buttonHomeSide {
+      background-color: black;
+      color: white;
+      border-radius: 5px;
+    }
+    .registerMain {
+      float: left;
+      width: 197px;
+      height: 390px;
+      margin-top: -212px;
+      border-top-right-radius: 2%;
+      border-bottom-right-radius: 2%;
+    }
+    .registerName {
+      text-align: center;
+      margin-top: 20px;
+      color: #78c7ee;
+      font-weight: bold;
+    }
+    .registerContent {
+      margin-left: 25%;
+    }
+    .inputRegister {
+      float: left;
+      margin-left: 10px;
+      margin-top: 5%;
+    }
+    .inputRegisterField {
+      width: 160px;
+    }
+    .inputRegisterButton {
+      margin-left: 41%;
+    }
+    .loginMain {
+      float: right;
+      width: 210px;
+      height: 390px;
+      margin-right: 100%;
+      margin-top: -235px;
+      border-top-left-radius: 2%;
+      border-bottom-left-radius: 2%;
+    }
+    .loginName {
+      text-align: center;
+      margin-top: 55%;
+      margin-left: 5%;
+      color: #78c7ee;
+      font-weight: bold;
+    }
+    .loginContent {
+      margin-right: 75%;
+      margin-top: 4%;
+    }
+    .inputLogin {
+      float: left;
+      margin-left: 20%;
+    }
+    .inputLoginField {
+      width: 175px;
+    }
+    .inputLoginFieldButton {
+      margin-left: 50px;
+    }
+    /* input box place holders */
+    label {
+      margin: 10px 0;
+      position: relative;
+      display: inline-block;
+    }
+  
+    .spanClass {
+      padding: 9px;
+      margin-left: 5px;
+      font-size: 12px;
+      pointer-events: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+      transition: 0.2s;
+      transition-timing-function: ease;
+      transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+      opacity: 0.5;
+    }
+  
+    input {
+      padding: 10px;
+    }
+  
+    input:focus + span,
+    input:not(:placeholder-shown) + span {
+      opacity: 1;
+      transform: scale(0.75) translateY(-100%) translateX(-30px);
+    }
+    /* For IE Browsers*/
+    input:focus + span,
+    input:not(:-ms-input-placeholder) + span {
+      opacity: 1;
+      transform: scale(0.75) translateY(-100%) translateX(-30px);
+    }
+    .loginSideLogo {
+      width: 135px;
+      margin-top: -8px;
+    }
+  }
+  
+  .jobbuzzLogo {
+    margin-left: -52%;
+    margin-bottom: 2%;
+  }
+  .createLogo{
+    margin-left: -52%;
+    margin-bottom: 2%;
+  }

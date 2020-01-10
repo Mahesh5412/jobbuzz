@@ -1,0 +1,42 @@
+.jobListSub2 {
+    background-color: white;
+    margin-top: 3%;
+    margin-left: 19%;
+    margin-left: 16%;
+    box-shadow: 1px 1px 1px 1px #f0eaff;
+    border-radius: 2%;
+    padding: 10px;
+  }
+  .sideHeader {
+    font-size: 10px;
+    color: red;
+    float: right;
+  }
+  .jobHeader {
+    height: 40px;
+    background-color: #ed7921;
+    box-shadow: 1px 1px 1px 1px #f0eaff;
+    border-radius: 2%;
+    text-align: center;
+  }
+  .jobHeaderText {
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+  }
+  .tableList {
+    width: 100%;
+  }
+  .bottomText {
+    font-size: 10px;
+    color: red;
+    margin-left: 3%;
+  }
+  .TrendingJobList {
+    margin-top: 10px;
+    margin-left: 10%;
+  }
+  
+  
+  

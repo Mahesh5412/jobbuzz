@@ -1,0 +1,2 @@
+// SELECT t2.*, ua.userId, ua.jobStatus FROM (SELECT t1.*, jd.jobId, jd.jobProfile, jd.description, jd.experienceYearsReq, jd.specialSkills, jd.vacancies, jd.annualSalaryLakhs, jd.postedOn, jd.startDate, jd.lastDate FROM (SELECT cd.companyId, cd.company, cd.branch, ur.userName, ur.email, ur.mobileNumber FROM `companyDetails` AS cd INNER JOIN userRegistration AS ur ON cd.userId= ur.userId WHERE cd.userId=18) AS t1 INNER JOIN jobDetails AS jd ON jd.companyId=t1.companyId) AS t2 INNER JOIN userJobApplication AS ua ON t2.jobId= ua.jobId
+// WHERE ua.jobStatus='applied'

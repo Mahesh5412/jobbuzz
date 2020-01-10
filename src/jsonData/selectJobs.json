@@ -1,0 +1,40 @@
+[
+    {
+    "image" : "http://i1.sndcdn.com/avatars-000376006379-82tz06-original.jpg",
+    "jobTitle" : "Flutter Devloper",
+    "companyName" : "Infosys Pvt Ltd",
+    "location": "Hyderabad",
+    "experience" : "Fresher",
+    "currency" : "INR",
+    "package" : "1.2 LPA"
+  },
+    {
+    "image" : "https://novisync.com/img/novisync_new.png",
+    "jobTitle" : "Flutter Devloper",
+    "companyName" : "Infosys Pvt Ltd",
+    "location": "Hyderabad",
+    "currency" : "INR",
+    "experience" : "Fresher",
+    "package" : "1.2 LPA"
+  },
+    {
+    "image" : "https://novisync.com/img/novisync_new.png",
+    "jobTitle" : "Flutter Devloper",
+    "companyName" : "Infosys Pvt Ltd",
+    "location": "Hyderabad",
+    "currency" : "INR",
+    "experience" : "Fresher",
+    "package" : "1.2 LPA"
+  },
+    {
+    "image" : "http://i1.sndcdn.com/avatars-000376006379-82tz06-original.jpg",
+    "jobTitle" : "Flutter Devloper",
+    "companyName" : "Infosys Pvt Ltd",
+    "location": "Hyderabad",
+    "experience" : "Fresher",
+    "currency" : "INR",
+    "package" : "1.2 LPA"
+
+  }
+
+]

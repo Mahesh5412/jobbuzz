@@ -1,0 +1,76 @@
+.jobProfileName {
+  color : red;
+  font-Size : 24px;
+}
+.companyName{
+  color : gray;
+  margin-top: -15px;
+  font-size: 12px;
+}
+.location {
+  margin-left:15px;
+  padding-right:10px;
+  margin-top: -3px;
+  
+}
+.expImage{
+  padding-right:10px;
+  margin-top: -3px;
+}
+.currencyImage{
+  padding-right:10px;
+  margin-top: -3px;
+}
+.modalText{
+  font-size :13px;
+  margin-top: -3px;
+}
+.dateHeading{
+  margin-top: -22px;
+  font-weight: bold;
+}
+.startDate{
+  margin-left: 7%;
+  font-size: 12px;
+}
+.postedOn{
+  margin-left: 5%;
+  font-size: 12px;
+}
+.lastDate{
+  margin-left: 5%;
+  font-size: 12px;
+}
+.showPostedOn{
+  margin-left: 4%;
+  font-size: 12px;
+}
+.showLastDate{
+  margin-left: 4%;
+  font-size: 12px;
+}
+.dateShowing{
+  margin-top: -12px;
+}
+.modaldesc {
+  margin-left: 2%;
+  font-size : 14px
+}
+.modaldescinfo{
+  font-size: 11px;
+  margin-left: 3%;
+}
+.edit{
+  margin-left: 90%;
+ 
+}
+.editText{
+  margin-top: 1%;
+  color:red; 
+}
+.closebutton{
+  color:white;
+  background-color: red; 
+  margin-top: 10px;
+  margin-left: 70%;
+}

@@ -1,0 +1,151 @@
+.searchBar {
+  height: 109px;
+  margin-top: 22%;
+  background-color: #d6d6d6;
+  width: 90%;
+  padding-top: 10px;
+  margin-left: 5%;
+  border-radius: 1%;
+  box-shadow: 1px 1px 1px;
+}
+.jobListMain {
+  width: 80%;
+  background-color: #d6d6d6;
+  height: auto;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 10%;
+  padding-bottom: 2%;
+}
+.jobProfile {
+  margin-top: 14px;
+  margin-left: 5%;
+}
+.jobProfileInput {
+  width: 160%;
+}
+.jobSkills {
+  margin-left: 43%;
+  margin-top: -57px;
+}
+.jobSkills {
+  margin-left: 43%;
+  margin-top: -57px;
+}
+.jobSkillsInput {
+  width: 160%;
+}
+.editProfile {
+  margin-left: 80%;
+  margin-top: -48px;
+}
+.editProfileBtn {
+  width: 180px;
+  background-color: #ed124d;
+  color: white;
+  font-weight: bold;
+}
+.jobProfileText {
+  float: right;
+  margin-right: 3.5%;
+  margin-top: 3px;
+}
+.jobListSubMain {
+  margin-left: 5%;
+  margin-top: 10px;
+}
+.jobListSub1 {
+  width: 45%;
+  height: 150px;
+  margin-left: 3%;
+  margin-top: 30px;
+}
+.jobImage {
+  background-color: white;
+  width: 115%;
+  height: 150px;
+  border-radius: 5%;
+  margin-top: 10px;
+  float: left;
+  box-shadow: 1px 1px 1px 1px #f0eaff;
+}
+
+.jobDetails {
+  background-color: white;
+  width: 334%;
+  height: 150px;
+  border-radius: 2%;
+  margin-top: 10px;
+  box-shadow: 1px 1px 1px 1px #f0eaff;
+}
+
+.jobListSub3{
+  margin-left: 3%;
+
+}
+
+.companyLogo {
+  width: 134px;
+  height: 150px;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.jobTitleText {
+  padding: 10px;
+  color: #ed124d;
+  font-weight: bold;
+  font-size: 18px;
+}
+.jobApplyBtn {
+  margin-left: 76%;
+  margin-top: -9%;
+}
+.jobViewBtn {
+  margin-left: 255%;
+  margin-top:-28%;
+}
+.companyLocation {
+  float: left;
+  width: 30%;
+}
+.experience {
+  float: left;
+  width: 30%;
+}
+.companyNameText {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: -35px;
+  margin-left: 4%;
+}
+.locationImage {
+  float: left;
+  margin-left: 4%;
+}
+.locationText {
+  font-size: 12px;
+  margin-left: 13%;
+}
+.experienceImage {
+  float: left;
+  margin-left: 4%;
+}
+.experienceText {
+  font-size: 12px;
+  margin-left: 33%;
+}
+.packageImage {
+  float: left;
+  margin-left: 4%;
+}
+.packageText {
+  font-size: 12px;
+  margin-left: 33%;
+}
+.closeButton{
+  color:white;
+  background-color: red;
+}
+
+

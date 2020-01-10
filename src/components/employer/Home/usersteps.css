@@ -1,0 +1,261 @@
+.preview{
+  background-color: skyblue;
+  width:120px;
+  height:50px;
+  border-radius: 3px;
+  border:none;
+  color:white;
+  font-size:18px;
+  font-weight:'bold';
+margin-left:80px;
+}
+.modalsubmit{
+  background-color:red;
+  margin-top: 40%;
+  margin-left: 40%;
+color:white;
+
+
+}
+.modaldiv{
+  margin-left:70%;
+
+
+}
+.modaldesc{
+  margin-top:40px;
+}
+  
+  .magleft{
+    margin-left:30px
+  }
+  .inputRegister{
+    float: left;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+  .userContainer1 {
+  float:left;
+  margin: 0 1%;
+  padding: 20px;
+  width: 100%;
+  } 
+  .userContainer2 {
+  float:left;
+  margin-left : -6px;
+  padding: 10px;
+  width: 100%;
+  } 
+  
+  
+  
+  .circle1 {
+  float:left;
+  width: 60px;
+  height: 60px;
+  margin-left: 18.5%;
+  text-align: center;
+  border-radius:100%;
+  background-image: url("../../../images/student.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 10px 10px 5px #f0eaff;
+  }
+  .circle2 {
+  float:left;
+  width: 60px;
+  height: 60px;
+  margin-left: 22.5%;
+  border-radius:100%;
+  text-align: center;
+  background-image: url("../../../images/student.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 10px 10px 5px #f0eaff;
+  }
+ 
+  .box1 {
+  float:left;
+  background-color: #78c7EE;
+  width: 109px;
+  height: 110px;
+  margin-left: 18.5%;
+  text-align: center;
+  border-radius:8%;
+  background-image: url("../../../images/cv.png");
+  background-repeat: no-repeat;
+  background-size: 80px 70px;
+  background-position: 40% 20%;
+  box-shadow: 10px 10px 5px #f0eaff;
+  }
+  .box2 {
+  float:left;
+  background-color:red;
+  width: 109px;
+  height: 110px;
+  margin-left: 18.5%;
+  border-radius:8%;
+  text-align: center;
+  background-image: url("../../../images/analysis.png");
+  background-repeat: no-repeat;
+  background-size: 80px 70px;
+  background-position: 40% 20%;
+  box-shadow: 10px 10px 5px #f0eaff;
+  }
+ 
+  .jg{
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 72%;
+  }
+  .pm{
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 72%;
+  }
+  
+  .circleText{
+    padding-top: 20px;
+    padding-left: 10%;
+    color: black;
+  }
+  
+  @media only screen and (min-width :360px) and (max-width:768px) {
+    .userContainer1 {
+        display: none;
+        float:left;
+        margin: 0 auto;
+        padding: 20px;
+        width: 100%;
+        }
+        .userContainer2 {
+        float:left;
+        margin-left : -6px;
+        padding: 10px;
+        width: 100%;
+        }
+        .inputRegisterField{
+          width:227px;
+        }
+        .circle1 {
+        float:left;
+        width: 60px;
+        height: 60px;
+        margin-left: 18.5%;
+        text-align: center;
+        border-radius:100%;
+        background-image: url("../../../images/student.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 10px 10px 5px #f0eaff;
+        }
+        .circle2 {
+        float:left;
+        width: 60px;
+        height: 60px;
+        margin-left: 22.5%;
+        border-radius:100%;
+        text-align: center;
+        background-image: url("../../../images/student.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: 10px 10px 5px #f0eaff;
+        }
+        .inputfield{font-size: 14px;
+            width: 200px;
+            height: 35px;}
+      .box1 {
+        float: left;
+        background-color: #78c7EE;
+        width: 59px;
+        height: 53px;
+        margin-left: 18%;
+        text-align: center;
+        border-radius: 8%;
+        background-image: url("../../../images/cv.png");
+        background-repeat: no-repeat;
+        background-size: 44px 34px;
+        background-position: 40% 20%;
+        box-shadow: 10px 10px 5px #f0eaff;
+        }
+      .box2 {
+        float:left;
+        background-color: #ed7921;
+        width: 59px;
+        height: 53px;
+        margin-left: 8%;
+        text-align: center;
+        border-radius: 8%;
+        background-image: url("../../../images/analysis.png");
+        background-repeat: no-repeat;
+        background-size: 44px 34px;
+        background-position: 40% 20%;
+        box-shadow: 10px 10px 5px #f0eaff;
+        }
+       
+        .jg{
+          color:black;
+          font-size: 8px;
+          font-weight: bold;
+          margin-top:94%;
+        }
+        .pm{
+          color:black;
+          font-size: 8px;
+          font-weight: bold;
+          margin-top:94%;
+        }
+        .tj{
+          color:black;
+          font-size: 8px;
+          font-weight: bold;
+          margin-top:94%;
+        }
+        .circleText{
+          padding-top: 20px;
+          padding-left: 10%;
+          color: black;
+        }
+  }
+  /* input box place holders */
+label {
+  margin:10px 0;
+  position:relative;
+  display:inline-block;
+}
+
+.spanClass {
+  padding:9px;
+  margin-left: 5px;
+  font-size: 16px;
+  pointer-events: none;
+  position:absolute;
+  left:0;
+  top:0;
+  transition: 0.2s;
+  transition-timing-function: ease;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  opacity:0.5;
+}
+
+
+input {
+  padding:10px;
+}
+
+input:focus + span, input:not(:placeholder-shown) + span {
+  opacity:1;
+  transform: scale(0.75) translateY(-100%) translateX(-30px);
+}
+/* For IE Browsers*/
+input:focus + span, input:not(:-ms-input-placeholder) + span {
+  opacity:1;
+  transform: scale(0.75) translateY(-100%) translateX(-30px);
+}
+.loginSideLogo{
+  margin-left: -42%;
+  margin-top: 24px;
+}
+  

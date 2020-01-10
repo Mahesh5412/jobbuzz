@@ -1,0 +1,43 @@
+
+  
+  .successMsg{
+    align-items: center;
+    color: red;
+    margin-top: -16px;
+    font-weight: bold;
+
+  }
+  .checkStatus{
+    margin-left:10;
+    color:white;
+  }
+  .logo6{
+    margin-left: 590px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+  }
+  .createpost{
+  
+    justify-content: center;
+  }
+  .post{
+    margin-left: 20%;
+    background-color: black;
+    width: 60%;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    height: 81px;
+  }
+  .dashboardbtn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    width: 150px;
+    padding: 5px;
+    margin-left: 45%;
+  }
+  .mainImage{
+    margin-top: -14px;
+    margin-left: -6%;
+  }

@@ -1,0 +1,187 @@
+
+
+ 
+/* jobProbability css */
+
+.jobProbability {
+  width: 100%;
+  height: 100px;
+  margin-top: 20%;
+  height: 80vh;
+}
+.trendingList {
+  margin-left: auto;
+}
+.trendingList2 {
+  margin-right: auto;
+  margin-left: 2%;
+}
+.trendingJobListProbability {
+  width: 123%;
+  margin-left: -24%;
+}
+.trendingJobListProbability2 {
+  width: 123%;
+  margin-left: -24%;
+}
+.addingSkills {
+  /* background-color: #e6e1e1; */
+  height: 73px;
+  /* width: 78%; */
+  margin-left: 18%;
+  /* box-shadow: 1px 1px 1px 1px #f0eaff; */
+  border-radius: 1%;
+  margin-top: 40px;
+  padding-top: 8px;
+}
+.etc {
+  margin-left: auto;
+}
+.skills {
+  margin-left: 2.5%;
+  width: 95%;
+  padding: 10px;
+  background-color: #ed7921;
+}
+.skillSelection {
+  width: 480px;
+}
+.Text_skills {
+  color: orange;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 40px;
+}
+.job_skills {
+  margin-left: 20%;
+  background-color: #e8e5ee;
+  margin-top: -73px;
+  width: 73%;
+  box-shadow: 1px 1px 1px 1px #f0eaff;
+  border-radius: 2%;
+  padding: 10px;
+}
+.skillsList {
+  margin-right: auto;
+}
+.skills_header {
+  padding-right: 40px;
+}
+.trendingList2 {
+  margin-right: auto;
+}
+.form {
+  padding-top: 20px;
+}
+.eligible {
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+  margin-left: 10%;
+  height: 80vh;
+  background-image: url("../../images/undraw_3d_modeling_h60h.png");
+  background-repeat: no-repeat;
+  /* background-position: 10% center; */
+  background-size: 297px;
+}
+
+.eligible_2 {
+  transform: translate(120px, 30px);
+  position: absolute;
+  width: 115px;
+  margin-left: -3%;
+  margin-top: 7px;
+}
+.addedSkill {
+  margin-left: 2%;
+  height: 44px;
+  width: 95%;
+  background-color: white;
+  border-radius: 3%;
+  margin-top: 10px;
+}
+.skillText {
+  padding: 10px;
+  margin-left: 20px;
+  /* y-weight: bold; */
+}
+
+.inputUserButton1 {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  margin-left: 27%;
+  padding: 10px;
+  margin-top: 15px;
+  width: 150px;
+}
+.findJobBtn {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  margin-left: 27%;
+  padding: 10px;
+  margin-top: 25px;
+  width: 150px;
+}
+.inputUserButton2 {
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 30%;
+  width: 150px;
+}
+
+.skillPercentage {
+  width: 100%;
+  /* height:10px; */
+  height: 59vh;
+  background-image: url("../../images/10.png");
+  background-repeat: no-repeat;
+  background-position: 50% top;
+  background-size: 232px;
+}
+.skillMatch {
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+  height: 80vh;
+  background-image: url("../../images/Group 238.png");
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 400px;
+}
+.match {
+  width: 100%;
+  height: 100px;
+  margin-top: 10%;
+  position: absolute;
+  height: 80vh;
+  background-image: url("../../images/Group 239.png");
+  background-repeat: no-repeat;
+  background-position: 60% 193px;
+  background-size: 137px;
+}
+
+.firstSkill {
+  width: 100%;
+  height: 500px;
+  background-image: url("../../images/undraw_personal_settings_kihd.png");
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 400px;
+}
+.mainProbability {
+  margin-right: 0px;
+}
+
+
+.view{
+  margin-left:40px;
+  background-color:blueviolet;
+  color:white;
+}
+
+
